@@ -10,8 +10,16 @@ Bienvenue sur la documentation du géoportail Cartolacôte!
    :maxdepth: 2
    :caption: Documentation
    
-   navigation
-   donnees
+   01_navigation
+   02_donnees
+   03_localisation_recherche
+   04_interrogation
+   05_outils
+   06_impression_export
+   07_connexion
+   08_edition
+   09_filtres
+   10_version_mobile
 
 Indices and tables
 ==================

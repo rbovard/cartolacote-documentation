@@ -29,3 +29,12 @@ Le zoom dans la carte peut se faire de plusieurs façons :
 
 Coordonnées
 -----------
+
+Les coordonnées (choix du système de coordonnées avec la liste déroulante) du curseur sont
+indiquées dans la barre de statut, en bas à droite :
+
+Un clic droit sur la carte permet d’obtenir les coordonnées et l’altitude du point :
+
+Il est également possible d’afficher cet endroit dans Google Street View ou Google Earth, pour
+autant que des données existent.
+

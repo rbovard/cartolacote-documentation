@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Données</title>
+      <title>Connexion</title>
     
       <link rel="stylesheet" href="_static/pygments.css">
       <link rel="stylesheet" href="_static/theme.css">
@@ -24,7 +24,8 @@
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Recherche" href="search.html" />
-  <link rel="prev" title="Navigation" href="navigation.html" /> 
+  <link rel="next" title="Edition" href="08_edition.html" />
+  <link rel="prev" title="Impression et export" href="06_impression_export.html" /> 
   </head>
 
   <body>
@@ -77,20 +78,72 @@
       </p>
       <ul class="current">
         
-          <li class="toctree-l1 "><a href="navigation.html" class="reference internal ">Navigation</a>
+          <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
 
             
           </li>
 
         
-          <li class="toctree-l1 current"><a href="#" class="reference internal current">Données</a>
+          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="03_localisation_recherche.html" class="reference internal ">Localisation et recherche</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="04_interrogation.html" class="reference internal ">Interrogation</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="05_outils.html" class="reference internal ">Outils</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="06_impression_export.html" class="reference internal ">Impression et export</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Connexion</a>
 
             
               <ul>
                 
-                  <li class="toctree-l2"><a href="#fonds-de-plan" class="reference internal">Fonds de plan</a></li>
+                  <li class="toctree-l2"><a href="#deplacement" class="reference internal">Déplacement</a></li>
+                
+                  <li class="toctree-l2"><a href="#zoom" class="reference internal">Zoom</a></li>
+                
+                  <li class="toctree-l2"><a href="#coordonnees" class="reference internal">Coordonnées</a></li>
                 
               </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="08_edition.html" class="reference internal ">Edition</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="09_filtres.html" class="reference internal ">Filtres</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="10_version_mobile.html" class="reference internal ">Version mobile</a>
+
             
           </li>
 
@@ -107,14 +160,18 @@
   <ul class="breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
     
-    <li>Données</li>
+    <li>Connexion</li>
   </ul>
   
 
   <ul class="page-nav">
   <li class="prev">
-    <a href="navigation.html"
-       title="Chapitre précédent">← Navigation</a>
+    <a href="06_impression_export.html"
+       title="Chapitre précédent">← Impression et export</a>
+  </li>
+  <li class="next">
+    <a href="08_edition.html"
+       title="Chapitre suivant">Edition →</a>
   </li>
 </ul>
   
@@ -122,31 +179,33 @@
 <hr>
           <div class="content" role="main">
             
-  <div class="section" id="donnees">
-<h1>Données<a class="headerlink" href="#donnees" title="Lien permanent vers ce titre">¶</a></h1>
-<div class="section" id="fonds-de-plan">
-<h2>Fonds de plan<a class="headerlink" href="#fonds-de-plan" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Le choix du fond de plan se fait à l’aide de la liste de vignettes
-se trouvant en bas à gauche de l’interface.
-Les plans disponibles sont :</p>
+  <div class="section" id="connexion">
+<h1>Connexion<a class="headerlink" href="#connexion" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="deplacement">
+<h2>Déplacement<a class="headerlink" href="#deplacement" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le déplacement dans la carte se fait à l’aide de la souris avec le « drag and drop »</p>
+</div>
+<div class="section" id="zoom">
+<h2>Zoom<a class="headerlink" href="#zoom" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le zoom dans la carte peut se faire de plusieurs façons :</p>
 <ul class="simple">
-<li><p>Plan de ville (couleurs et niveaux de gris)</p></li>
-<li><p>Plan cadastral</p></li>
-<li><p>Plans ASIT VD (couleurs et niveaux de gris)</p></li>
-<li><p>Carte nationale (couleurs et niveaux de gris)</p></li>
-<li><p>Carte swissTLM (couleurs et niveaux de gris)</p></li>
-<li><p>Aucun</p></li>
+<li><p>A l’aide de la souris :</p>
+<ul>
+<li><p>Avec la roulette</p></li>
+<li><p>Avec un double clic</p></li>
 </ul>
-<p>Pour connaître la date de mise à jour des données utilisées comme fonds de plan, il suffit de
-placer le curseur de la souris sur le copyright</p>
-<ul class="simple">
-<li><p>OIT : Données cadastrales (VD)</p></li>
-<li><p>SITG : Données cadastrales (GE)</p></li>
-<li><p>Swisstopo : Photos aériennes</p></li>
-<li><p>OSM : Données OpenStreetMap</p></li>
+</li>
+<li><p>A l’aide des boutons en haut à gauche de la carte :</p></li>
+<li><p>A l’aide du clavier et de la souris :</p>
+<ul>
+<li><p>En dessinant un rectangle avec la touche SHIFT enfoncée</p></li>
 </ul>
-<p>Il est possible d’afficher l’orthophoto en transparence avec le slider en bas de la liste des
-vignettes :</p>
+</li>
+<li><p>A l’aide du sélecteur d’échelle en bas à gauche de l’interface :</p></li>
+</ul>
+</div>
+<div class="section" id="coordonnees">
+<h2>Coordonnées<a class="headerlink" href="#coordonnees" title="Lien permanent vers ce titre">¶</a></h2>
 </div>
 </div>
 
@@ -155,8 +214,12 @@ vignettes :</p>
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
   <li class="prev">
-    <a href="navigation.html"
-       title="Chapitre précédent">← Navigation</a>
+    <a href="06_impression_export.html"
+       title="Chapitre précédent">← Impression et export</a>
+  </li>
+  <li class="next">
+    <a href="08_edition.html"
+       title="Chapitre suivant">Edition →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.

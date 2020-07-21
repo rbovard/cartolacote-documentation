@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>Recherche</title>
+      <title>Données</title>
     
       <link rel="stylesheet" href="_static/pygments.css">
       <link rel="stylesheet" href="_static/theme.css">
       <link rel="stylesheet" href="_static/romnnn_sphinx_press_theme.css">
-  
       
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
 
@@ -22,15 +21,11 @@
       
       <script src="_static/theme-vendors.js"></script>
       <script src="_static/theme.js" defer></script>
-  <script type="text/javascript" src="_static/searchtools.js"></script>
     
   <link rel="index" title="Index" href="genindex.html" />
-  <link rel="search" title="Recherche" href="#" />
-  <script type="text/javascript" src="searchindex.js" defer></script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
-   
-
+  <link rel="search" title="Recherche" href="search.html" />
+  <link rel="next" title="Localisation et recherche" href="03_localisation_recherche.html" />
+  <link rel="prev" title="Navigation" href="01_navigation.html" /> 
   </head>
 
   <body>
@@ -67,7 +62,7 @@
           </navlinks><div id="searchbox" class="searchbox" role="search">
   <div class="caption"><span class="caption-text">Recherche</span>
     <div class="searchformwrapper">
-      <form autocomplete="off" class="search" action="#" method="get">
+      <form autocomplete="off" class="search" action="search.html" method="get">
         <input type="text" name="q" autocomplete="off" />
         <input type="submit" value="Go" />
         <input type="hidden" name="check_keywords" value="yes" />
@@ -81,7 +76,7 @@
       <p class="caption">
         <span class="caption-text"><a href="index.html#bienvenue-sur-la-documentation-du-geoportail-cartolacote">Documentation</a></span>
       </p>
-      <ul class="">
+      <ul class="current">
         
           <li class="toctree-l1 "><a href="01_navigation.html" class="reference internal ">Navigation</a>
 
@@ -89,8 +84,14 @@
           </li>
 
         
-          <li class="toctree-l1 "><a href="02_donnees.html" class="reference internal ">Données</a>
+          <li class="toctree-l1 current"><a href="#" class="reference internal current">Données</a>
 
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#fonds-de-plan" class="reference internal">Fonds de plan</a></li>
+                
+              </ul>
             
           </li>
 
@@ -155,42 +156,65 @@
   <ul class="breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
     
-    <li>Recherche</li>
+    <li>Données</li>
   </ul>
   
 
   <ul class="page-nav">
+  <li class="prev">
+    <a href="01_navigation.html"
+       title="Chapitre précédent">← Navigation</a>
+  </li>
+  <li class="next">
+    <a href="03_localisation_recherche.html"
+       title="Chapitre suivant">Localisation et recherche →</a>
+  </li>
 </ul>
   
 </div>
 <hr>
           <div class="content" role="main">
             
-  <h1 id="search-documentation">Recherche</h1>
-  <div id="fallback" class="admonition warning">
-  <script type="text/javascript">$('#fallback').hide();</script>
-  <p>
-    Veuillez activer le JavaScript pour que la recherche fonctionne.
-  </p>
-  </div>
-  <p>
-    Enter search keywords into the box below and click "Search".
-    Note that the search function will automatically search for all of the words.
-    Pages containing fewer words won't appear in the result list.
-  </p>
-  <form action="" autocomplete="off" method="get">
-    <input type="text" name="q" value="" autocomplete="off" />
-    <input type="submit" value="Recherche" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="donnees">
+<h1>Données<a class="headerlink" href="#donnees" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="fonds-de-plan">
+<h2>Fonds de plan<a class="headerlink" href="#fonds-de-plan" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le choix du fond de plan se fait à l’aide de la liste de vignettes
+se trouvant en bas à gauche de l’interface.
+Les plans disponibles sont :</p>
+<ul class="simple">
+<li><p>Plan de ville (couleurs et niveaux de gris)</p></li>
+<li><p>Plan cadastral</p></li>
+<li><p>Plans ASIT VD (couleurs et niveaux de gris)</p></li>
+<li><p>Carte nationale (couleurs et niveaux de gris)</p></li>
+<li><p>Carte swissTLM (couleurs et niveaux de gris)</p></li>
+<li><p>Aucun</p></li>
+</ul>
+<p>Pour connaître la date de mise à jour des données utilisées comme fonds de plan, il suffit de
+placer le curseur de la souris sur le copyright</p>
+<ul class="simple">
+<li><p>OIT : Données cadastrales (VD)</p></li>
+<li><p>SITG : Données cadastrales (GE)</p></li>
+<li><p>Swisstopo : Photos aériennes</p></li>
+<li><p>OSM : Données OpenStreetMap</p></li>
+</ul>
+<p>Il est possible d’afficher l’orthophoto en transparence avec le slider en bas de la liste des
+vignettes :</p>
+</div>
+</div>
+
 
           </div>
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="01_navigation.html"
+       title="Chapitre précédent">← Navigation</a>
+  </li>
+  <li class="next">
+    <a href="03_localisation_recherche.html"
+       title="Chapitre suivant">Localisation et recherche →</a>
+  </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2020, Cartolacôte.
     <br>
