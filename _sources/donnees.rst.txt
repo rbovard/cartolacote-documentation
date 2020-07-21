@@ -1,0 +1,27 @@
+Données
+=======
+
+Fonds de plan
+-------------
+
+Le choix du fond de plan se fait à l’aide de la liste de vignettes
+se trouvant en bas à gauche de l’interface.
+Les plans disponibles sont :
+
+- Plan de ville (couleurs et niveaux de gris)
+- Plan cadastral
+- Plans ASIT VD (couleurs et niveaux de gris)
+- Carte nationale (couleurs et niveaux de gris)
+- Carte swissTLM (couleurs et niveaux de gris)
+- Aucun
+
+Pour connaître la date de mise à jour des données utilisées comme fonds de plan, il suffit de
+placer le curseur de la souris sur le copyright
+
+- OIT : Données cadastrales (VD)
+- SITG : Données cadastrales (GE)
+- Swisstopo : Photos aériennes
+- OSM : Données OpenStreetMap
+
+Il est possible d’afficher l’orthophoto en transparence avec le slider en bas de la liste des
+vignettes :
